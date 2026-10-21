@@ -1,0 +1,14 @@
+# CMake 构建目录
+build/
+out/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+
+# 编译产物
+*.exe
+*.obj
+*.pdb
+*.ilk
