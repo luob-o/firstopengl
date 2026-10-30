@@ -96,6 +96,7 @@ function(add_opengl_demo target_name source_file)
 
     target_include_directories(${target_name} PRIVATE
         ${soil_SOURCE_DIR}/src
+        ${CMAKE_CURRENT_SOURCE_DIR}/learnopengl
     )
 
     target_link_libraries(${target_name} PRIVATE
